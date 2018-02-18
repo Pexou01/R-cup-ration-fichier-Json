@@ -1,0 +1,81 @@
+body {
+  font-family: sans-serif;
+  background-color:rgb(51, 172, 255);
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+input {
+  outline: none;
+  /* Largeur du input */
+  width:  350px;
+  /* Hauteur du input */
+  height: 40%;
+  /* largeur du text saisi */
+  font-size: 24px;
+  /* marge interieur */
+  padding: 5px 10px;
+  border: 4px solid black;
+  border-radius: 8px;
+  }
+
+  label{
+    color: black;
+    margin-bottom: 4px;
+  }
+#main {
+/**
+*        POUR RENDRE UN ELEMENT DINAMIQUE DANS UNE PAGE HTML
+**/
+  display: flex;
+
+  /* taile de la fenetre */
+  width: 100%;
+  height: 100%;
+  outline: none;
+
+  /* police de caractaire */
+  font-family: sans-serif;
+  /* alignement des éléments d'une page */
+  flex-direction: column;
+  align-items:center;
+  align-content: center;
+  justify-content: center;
+
+}
+#login, #mdp{
+display: flex;
+ margin-bottom: 8px;
+ flex-direction: column;
+ align-items:center;
+ align-content: center;
+ justify-content: center;
+ text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#helo {
+  color: yellow;
+}
+.div1 {
+  background-color: green;
+  border: solid 3px blue;
+  text-align: center;
+}
+h1 {
+  color: red;
+}
+.div1 h1 {
+  color: blue;
+}
